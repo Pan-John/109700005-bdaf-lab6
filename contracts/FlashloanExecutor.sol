@@ -12,9 +12,9 @@ contract FlashloanExecutor {
     address public Bank_address;
     
     constructor(address NFT, address Token, address Bank ){
-        NFT_address=NFT;
-        Token_address=Token;
-        Bank_address=Bank;
+        NFT_address = NFT;
+        Token_address = Token;
+        Bank_address = Bank;
     }
 
     // this function calls function `IDeclareBeingRich()` in contract WealtPrivateClubNFT,
