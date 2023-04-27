@@ -25,6 +25,7 @@ with npm installed, run
 ```
 npm install
 ```
+remember to modify the `.env` file.
 
 ## Deploy & verify
 To deploy, run
